@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Checkout"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Checkout Page"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="48dp"/>
+
+    <!-- First Name -->
+    <EditText
+        android:id="@+id/editTextFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="First Name"/>
+
+    <!-- Last Name -->
+    <EditText
+        android:id="@+id/editTextLastName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Last Name"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Mailing Address -->
+    <EditText
+        android:id="@+id/editTextAddress"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Full Address"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Email Address -->
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Phone Number -->
+    <EditText
+        android:id="@+id/editTextPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Card Number -->
+    <EditText
+        android:id="@+id/editTextCardNumber"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Card Number"
+        android:inputType="number"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Card Expiry Date -->
+    <EditText
+        android:id="@+id/editTextCardExpiryDate"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Expiry Date (MM/YY)"
+        android:inputType="text"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Card CVV -->
+    <EditText
+        android:id="@+id/editTextCardCVV"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="CVV"
+        android:inputType="number"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/submitOrderButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Order"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

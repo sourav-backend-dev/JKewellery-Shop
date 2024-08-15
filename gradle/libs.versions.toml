@@ -1,0 +1,43 @@
+[versions]
+agp = "8.4.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.6.1"
+material = "1.11.0"
+activity = "1.9.0"
+constraintlayout = "2.1.4"
+annotation = "1.7.1"
+lifecycleLivedataKtx = "2.7.0"
+firebaseAuth = "22.3.1"
+firebaseDatabase = "20.3.1"
+firebaseUiDatabase = "8.0.2"
+glide = "4.16.0"
+firebaseFirestore = "24.11.0"
+firebaseCrashlyticsBuildtools = "2.9.9"
+picasso= "2.71828"
+recyclerview = "1.3.2"
+googleGmsGoogleServices = "4.4.2"
+
+[libraries]
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+annotation = { group = "androidx.annotation", name = "annotation", version.ref = "annotation" }
+lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtx" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+firebase-ui-database = { group = "com.firebaseui", name = "firebase-ui-database", version.ref = "firebaseUiDatabase" }
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore", version.ref = "firebaseFirestore" }
+firebase-crashlytics-buildtools = { group = "com.google.firebase", name = "firebase-crashlytics-buildtools", version.ref = "firebaseCrashlyticsBuildtools" }
+picasso = { group = "com.squareup.picasso", name = "picasso", version.ref = "picasso" }
+recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }

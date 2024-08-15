@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"> <!-- Placeholder background color -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:text="Login Page"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="48dp"/>
+
+    <!-- Email EditText -->
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="100dp"
+        android:hint="Email" />
+
+    <!-- Password EditText -->
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/email"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:hint="Password"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/registerNow"
+        android:text="Don't have an Account ?"
+        android:layout_below="@id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registerNow"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="40dp"
+        android:text="Login" />
+
+</RelativeLayout>

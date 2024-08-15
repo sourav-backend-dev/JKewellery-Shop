@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Checkout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:text="Checkout Page"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="48dp"/>
+
+
+        <!-- Last Name -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <!-- First Name -->
+            <EditText
+                android:id="@+id/editTextFirstName"
+                android:layout_width="200dp"
+                android:layout_height="48dp"
+                android:hint="First Name"/>
+
+            <EditText
+                android:id="@+id/editTextLastName"
+                android:layout_width="200dp"
+                android:layout_height="48dp"
+                android:hint="Last Name"
+                android:layout_marginLeft="16dp"/>
+
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Email Address"
+                android:inputType="textEmailAddress"
+                android:layout_marginLeft="16dp"/>
+
+        </LinearLayout>
+
+        <!-- Email Address -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <!-- Phone Number -->
+            <EditText
+                android:id="@+id/editTextPhoneNumber"
+                android:layout_width="200dp"
+                android:layout_height="48dp"
+                android:hint="Phone Number"
+                android:inputType="phone"
+                android:layout_marginTop="16dp"/>
+
+
+            <!-- Mailing Address -->
+            <EditText
+                android:id="@+id/editTextAddress"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Full Address"
+                android:layout_marginTop="16dp"/>
+
+        </LinearLayout>
+
+
+
+        <!-- Payment Options -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Payment Options"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Radio Buttons for Payment Options -->
+        <RadioGroup
+            android:id="@+id/radioGroupPaymentOptions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButtonCreditCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Credit Card"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonDebitCard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Debit Card"/>
+
+            <RadioButton
+                android:id="@+id/radioButtonPaymentPortal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Payment Portal"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonSubmitOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit Order"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</LinearLayout>

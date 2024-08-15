@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "720342218657",
+    "project_id": "jewellery-shop-76ec9",
+    "storage_bucket": "jewellery-shop-76ec9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720342218657:android:e1f0b16789ce722d927de0",
+        "android_client_info": {
+          "package_name": "com.example.jewelleryshop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBABuiUKvKgtN2KxBrSBEmigUdMNYu-cTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
